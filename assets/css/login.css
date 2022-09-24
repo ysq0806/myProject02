@@ -1,0 +1,68 @@
+html,
+body {
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#box-loginAndReg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+/* 盒子标题 */
+.title {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+#box-register {
+    display: none;
+}
+
+/* 去掉输入框的magin */
+.layui-input-block {
+    margin: 5px 15px;
+}
+
+#register,
+#login {
+    float: right;
+    margin-right: 25px;
+}
+
+/* 调整字体图标的位置 */
+.layui-form .layui-input-block {
+    position: relative;
+}
+
+.layui-form .layui-input-block i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/*  placeholder 的字*/
+.layui-form .layui-input-block input {
+    padding-left: 30px;
+}
