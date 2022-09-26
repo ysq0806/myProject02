@@ -57,7 +57,7 @@ $(function () {
                     return layer.msg('登录失败');
                 }
                 layer.msg('登录成功');
-                console.log(res);
+                // console.log(res);
                 // token 要存储在本地 后面的页面请求都需要用到他
                 localStorage.setItem('token', res.token)
 
